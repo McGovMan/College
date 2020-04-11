@@ -1,0 +1,8 @@
+The idea of the assignment is to practice inheritance.
+
+The bird and fish class inherit from the animal class.
+So for example: the Bird class has a method called move which will print out a string coresponding
+to whether the the bird can move or not. The ostrich class inherits this method.
+When we call the method, it checks whether the animal can fly or not. As we have
+set the ostrich to not be able to fly, the method instead prints out that it will
+walk the distance instead.

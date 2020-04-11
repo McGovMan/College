@@ -1,0 +1,8 @@
+The whole point of the assignment is to inheritance.
+Shark & Trout inherit from the Fish class, Ostrich & Canary inherit from the Bird class.
+The The Bird & Fish classes inherit from Animal. This is done to stop lots of duplication of code.
+
+Each class has toString method that is used to print out information on the animal and an equal method which is used to check if two objects are the same.
+
+Test1 creates an array of animal objects and prints out information on the animals, such as their features.
+Test2 creates an array of animal objects and compares all objects to each other using a for loop, and then prints to the screen if they match with the position of both objects in the array.
