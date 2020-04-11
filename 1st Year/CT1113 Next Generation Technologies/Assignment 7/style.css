@@ -1,0 +1,17 @@
+th {
+	background-color: blue;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	text-align: center;
+}
+
+td {
+	background-color: grey;
+	text-align: center;
+	padding: 5px;
+}
+
+table {
+	background-color: yellow;
+}

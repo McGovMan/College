@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script>
+            function drawDiv() {
+                var xPos = 0;
+                var yPos = 0;
+                xPos = Math.floor(Math.random() * 500);
+                yPos = Math.floor(Math.random() * 500);
+
+                document.getElementById('movingDiv').style.left= xPos + "px";
+                document.getElementById('movingDiv').style.top= yPos + "px";
+            }    
+        </script>
+    </head>
+    <body>
+        <div id="movingDiv" onclick="drawDiv()" style="position: absolute; top: 350px; left: 500px;"><img src="http://www.scoobyaddicts.com/Images/MysteryMachine1.jpg" /></div>
+    </body>
+</html>

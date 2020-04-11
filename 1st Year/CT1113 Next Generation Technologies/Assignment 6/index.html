@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    function init() {
+        var nums = [ ];
+        var sum = 0;
+        var smallest = 0;
+        var largest = 0;
+        var average = 0;
+        var html = "";
+
+        for (var i = 0; i < 100; i++) {
+            nums[i] = Math.floor(Math.random()*999);
+            document.getElementById("nums").innerHTML += nums[i] + ", ";
+            if (i == 15 || i == 30 || i == 45 || i == 60 || i == 75 || i == 90) {
+                document.getElementById("nums").innerHTML += "<br>";
+            }
+        }
+        smallest = nums[0];
+        largest = nums[0];
+        for (var i = 0; i < 100; i++) {
+            sum += nums[i];
+            if (nums[i] < smallest) {
+                smallest = nums[i];
+            }
+            if (nums[i] > largest) {
+                largest = nums[i];
+            }
+        }
+        average = sum / nums.length;
+
+        document.getElementById("calculations").innerHTML = "Sum of nums: " + sum + ".<br>Average of nums: " + average + ".<br>Smallest of nums: " + smallest + ".<br>Largest of nums: " + largest + ".";
+
+    }
+</script>
+</head>
+<body onload="init()">
+    <p id="calculations"></p>
+    <p id="nums"></p>
+</body>
+</html>

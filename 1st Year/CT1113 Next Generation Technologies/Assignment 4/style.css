@@ -1,0 +1,111 @@
+html, body, div, span, applet, object, iframe,
+blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+table {
+    border: 0; 
+    width: 100%; 
+    height: 100%;
+}
+
+.sideBar {
+    background-color: #333333;
+    width: 250px;
+    height: 100vh;
+    padding-top: 40px;
+    float: left;
+}
+
+.sideBar h1 {
+    color: white;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navList {
+    margin-left: 75px;
+    margin-top: 55px;
+}
+
+.navListLi {
+    padding-top: 20px;
+}
+
+.fbLogo {
+    padding-top: 300px;
+    padding-left: 75px;
+    width: 100px;
+    height: 100px;
+}
+
+.news {
+    padding-left: 110px; float: right; background-color: #FFFFFF; width: 525px; height: 100vh; color: black;
+}
+
+.updates {
+    padding-left: 110px; float: right; background-color: #FFFFFF; width: 524px; height: 100vh; color: black;
+}
+
+header {
+    top: 0;
+    background-color: #54C0C0;
+    height: 7vh;
+}
+
+header h1 {
+    float: right;
+    margin-right: 5vw;
+    padding-top: 10px;
+}
+
+header a {
+    text-decoration-style: none;
+}
+
+.news img {
+    width: 300px;
+    height: 225px;
+    padding-top: 4vh;
+}
+
+.updates {
+    width: 300px;
+    height: 225px;
+    padding-top: 4vh;
+}
+
+.mission {
+    padding-left: 110px; float: left; background-color: #FFFFFF; height: 100vh; color: black;
+}
+
+.mission img {
+    width: 380px;
+    height: 225px;
+    padding-top: 4vh;
+}

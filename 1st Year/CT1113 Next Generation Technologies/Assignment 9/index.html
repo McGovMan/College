@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up form</title>
+
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<table style="background-color: grey";>
+			<tr>
+				<td id="firstColomn">Question Catagory</td>
+				<td>
+					<select name="questionSelection" id="questionID">
+						<option id="value0" value="0">--Enter An Option--</option>
+						<option id="value1" value="1">Goods for Sale</option>
+						<option id="value2" value="2">Complaints</option>
+						<option id="value3" value="3">Support</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Question</td>
+				<td>
+					<textarea id="questionText" placeholder="Type Your Question here"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Your Name</td>
+				<td>
+					<textarea id="name" placeholder="Type your name here"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Your Email</td>
+				<td>
+					<textarea id="email" placeholder="Type your email here"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<button id="submit" onclick="validateForm()">Submit</button>
+				</td>
+			</tr>
+		</table>
+</body>
+</html>
