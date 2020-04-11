@@ -1,0 +1,8 @@
+﻿  Week 7.cpp
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7\week 7\week 7.cpp(22): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7\week 7\week 7.cpp(29): error C3861: 'printf': identifier not found
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7\week 7\week 7.cpp(31): error C3861: 'puts': identifier not found
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7\week 7\week 7.cpp(32): error C3861: 'gets_s': identifier not found
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7\week 7\week 7.cpp(36): error C3861: 'printf': identifier not found
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7\week 7\week 7.cpp(40): error C3861: 'printf': identifier not found
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7\week 7\week 7.cpp(63): error C3861: 'printf': identifier not found

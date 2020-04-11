@@ -1,0 +1,5 @@
+﻿  Week 7.cpp
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7\week 7\week 7.cpp(24): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7\week 7\week 7.cpp(98): warning C4101: 'word': unreferenced local variable
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7\week 7\week 7.cpp(80): warning C4715: 'findWord': not all control paths return a value
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7\week 7\week 7.cpp(91): error C4700: uninitialized local variable 'wordWithMostVowels' used

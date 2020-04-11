@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/conor/Documents/Git/Programming-Labs/Semester 2/Week 11/main.c
+stdio.h
+-
+test.h
+/home/conor/Documents/Git/Programming-Labs/Semester 2/Week 11/test.h
+
+/home/conor/Documents/Git/Programming-Labs/Semester 2/Week 11/test.h
+

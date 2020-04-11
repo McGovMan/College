@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa5f2f2a-2981-4bcf-9fa5-928fd45149e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlayerBullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sem 2/Assignment 1/.idea/Assignment 1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment 5/Alien.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment 5/Alien.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment 5/InvadersApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment 5/InvadersApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment 5/Spaceship.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment 5/Spaceship.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment 5/Sprite2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment 5/Sprite2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InvadersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InvadersApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spaceship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprite2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprite2D.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Assignment 5" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1XcEAy4N1Fykm1CfIwrL5cYpJ03" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="InvadersApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InvadersApplication" />
+      <module name="Assignment 5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InvadersApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa5f2f2a-2981-4bcf-9fa5-928fd45149e1" name="Default Changelist" comment="" />
+      <created>1581336842981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581336842981</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="813" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581616037055">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="813" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1581616037055" />
+    <state x="748" y="276" width="424" height="483" key="FileChooserDialogImpl" timestamp="1583163755921">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="748" y="276" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.1035@0.0.1920.1035" timestamp="1583163755921" />
+    <state width="914" height="103" key="GridCell.Tab.0.bottom" timestamp="1583163774211">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="914" height="103" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1583163774211" />
+    <state width="914" height="103" key="GridCell.Tab.0.center" timestamp="1583163774208">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="914" height="103" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1583163774208" />
+    <state width="914" height="103" key="GridCell.Tab.0.left" timestamp="1583163774206">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="914" height="103" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1583163774206" />
+    <state width="914" height="103" key="GridCell.Tab.0.right" timestamp="1583163774210">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="914" height="103" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1583163774210" />
+    <state width="914" height="289" key="GridCell.Tab.1.bottom" timestamp="1583163774176">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="914" height="289" key="GridCell.Tab.1.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1583163774176" />
+    <state width="914" height="289" key="GridCell.Tab.1.center" timestamp="1583163774173">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="914" height="289" key="GridCell.Tab.1.center/0.0.1920.1035@0.0.1920.1035" timestamp="1583163774173" />
+    <state width="914" height="289" key="GridCell.Tab.1.left" timestamp="1583163774172">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="914" height="289" key="GridCell.Tab.1.left/0.0.1920.1035@0.0.1920.1035" timestamp="1583163774172" />
+    <state width="914" height="289" key="GridCell.Tab.1.right" timestamp="1583163774174">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="914" height="289" key="GridCell.Tab.1.right/0.0.1920.1035@0.0.1920.1035" timestamp="1583163774174" />
+    <state width="960" height="517" key="XDebugger.FullValuePopup" timestamp="1582477925080">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="960" height="517" key="XDebugger.FullValuePopup/0.0.1920.1035@0.0.1920.1035" timestamp="1582477925080" />
+    <state x="639" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1583139480043">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="639" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1583139480043" />
+    <state x="340" y="120" key="new project wizard" timestamp="1583163771104">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="340" y="120" key="new project wizard/0.0.1920.1035@0.0.1920.1035" timestamp="1583163771104" />
+  </component>
+</project>

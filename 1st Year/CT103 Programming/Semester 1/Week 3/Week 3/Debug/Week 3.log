@@ -1,0 +1,5 @@
+﻿  Week 3.cpp
+c:\users\conor\onedrive - national university of ireland, galway\programming\projects\assesment\week 3\week 3\week 3.cpp(23): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\conor\onedrive - national university of ireland, galway\programming\projects\assesment\week 3\week 3\week 3.cpp(43): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+c:\users\conor\onedrive - national university of ireland, galway\programming\projects\assesment\week 3\week 3\week 3.cpp(43): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Week 3.vcxproj -> C:\Users\conor\OneDrive - National University of Ireland, Galway\Programming\Projects\Assesment\Week 3\Debug\Week 3.exe

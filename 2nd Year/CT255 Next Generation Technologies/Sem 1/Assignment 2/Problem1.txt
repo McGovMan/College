@@ -1,0 +1,12 @@
+Part 1:
+Inside the public class:
+- The res variable is set to the hash of the input. If the input is not
+- The if statement first checks if the input given is long enough and that one was given.
+
+Inside the hashing method:
+- The hash method gets passed in the input and determines if it is a valid input.
+- Once the has function deems it valid, it concatenates filler onto s and then clips sIn down to 64 characters.
+- The for loop takes one of the 4 positions in the array hashA, it takes the position in the string multiples it by a random number, then the answer is added to the number in the array.
+- Each number in the array is then modueled by 255.
+- Each number is added together and then multiplied by 256 * by the position in the array.
+

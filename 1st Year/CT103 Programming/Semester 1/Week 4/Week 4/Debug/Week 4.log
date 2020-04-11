@@ -1,0 +1,9 @@
+﻿  Week 4.cpp
+c:\users\conor\onedrive - national university of ireland, galway\programming\projects\assesment\week 4\week 4\week 4.cpp(32): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\conor\onedrive - national university of ireland, galway\programming\projects\assesment\week 4\week 4\week 4.cpp(45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\conor\onedrive - national university of ireland, galway\programming\projects\assesment\week 4\week 4\week 4.cpp(89): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\conor\onedrive - national university of ireland, galway\programming\projects\assesment\week 4\week 4\week 4.cpp(121): warning C4476: 'scanf_s' : unknown type field character '.' in format specifier
+c:\users\conor\onedrive - national university of ireland, galway\programming\projects\assesment\week 4\week 4\week 4.cpp(121): warning C4474: 'scanf_s' : too many arguments passed for format string
+  c:\users\conor\onedrive - national university of ireland, galway\programming\projects\assesment\week 4\week 4\week 4.cpp(121): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\conor\onedrive - national university of ireland, galway\programming\projects\assesment\week 4\week 4\week 4.cpp(125): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Week 4.vcxproj -> C:\Users\conor\OneDrive - National University of Ireland, Galway\Programming\Projects\Assesment\Week 4\Debug\Week 4.exe

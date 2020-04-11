@@ -1,0 +1,16 @@
+Output from terminal:
+
+root@bill:~# java CT255_HashFunction1 Bamb0
+input = Bamb0 : Hash = 110064280
+Start searching for collisions
+Collision found with Password: qguHhVHkCX
+Collision found with Password: PKqrVeLAve
+Collision found with Password: zUKK1srhqM
+Collision found with Password: 6GmBNiaO22
+Collision found with Password: pm4cKOxrr7
+Collision found with Password: UKyfex3os0
+Collision found with Password: HFFOne3BU7
+Collision found with Password: 5OWpr8D2BJ
+Collision found with Password: X1fsgZFbnh
+Collision found with Password: k4YJuY1zow
+root@bill:~# 

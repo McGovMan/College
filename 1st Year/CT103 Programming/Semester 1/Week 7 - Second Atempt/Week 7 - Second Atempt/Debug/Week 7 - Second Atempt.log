@@ -1,0 +1,6 @@
+﻿  Week 7 - Second Atempt.cpp
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7 - second atempt\week 7 - second atempt\week 7 - second atempt.cpp(23): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7 - second atempt\week 7 - second atempt\week 7 - second atempt.cpp(24): warning C4101: 'word': unreferenced local variable
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7 - second atempt\week 7 - second atempt\week 7 - second atempt.cpp(62): error C4716: 'findWordWithMostVowels': must return a value
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7 - second atempt\week 7 - second atempt\week 7 - second atempt.cpp(68): error C4716: 'isVowel': must return a value
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\week 7 - second atempt\week 7 - second atempt\week 7 - second atempt.cpp(56): error C4716: 'findWord': must return a value

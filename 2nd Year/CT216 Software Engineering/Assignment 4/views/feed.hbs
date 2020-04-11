@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="card col-md-6">
+                <br>
+                <textarea class="form-control" rows="3" cols="50" id="inputPost" placeholder="Got something to say?" maxlength="280"></textarea>
+                <label id="charRemaining" for="inputPost">280</label>
+            <div class="row">
+                <div class="col-md-3">
+                    <!--Camera-->
+                    <i class="fa fa-camera-retro fa-lg"></i>
+                </div>
+                <div class="col-md-3">
+                    <!--Video-->
+                    <i class="fas fa-video fa-lg"></i>
+                </div>
+                <div class="col-md-3">
+                    <!--Bar Chart-->
+                    <i class="fa fa-chart-bar fa-lg"></i>
+                </div>
+                <div class="col-md-3">
+                    <!-- Button -->
+                    <button type="text" id="postBtn" class="btn btn-primary">Post</button>
+                </div>
+            </div>
+        <br>
+            <button id="btn-count" type="button" class="btn btn-primary">
+                Comments <span id="count" class="badge badge-light">{{count}}</span>
+            </button>
+        </div>
+    </div>
+    <div id="feedPosts">
+    </div>
+</div>
+<script src="/javascripts/feed.js"></script>

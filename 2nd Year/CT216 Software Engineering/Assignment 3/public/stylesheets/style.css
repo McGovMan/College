@@ -1,0 +1,81 @@
+.image-cover {
+	background-image: url("https://www.postable.com/blog/wp-content/uploads/2018/06/adult-attractive-beard-1080243.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	max-width: 100%;
+	height: 100vh;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+}
+
+.container-bg {
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.container-bg form {
+	max-width: 40vw;
+	margin-top: 10vh;
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+/*
+#section-two {
+	min-height: 500px;
+	background-color: red;
+}*/
+
+.margins {
+	margin-left: 10vw; margin-right: 10vw;
+}
+
+.footer-1 {
+	background-color: aquamarine;
+	height: 150px;
+	width: 50%;
+	float: left;
+}
+
+.footer-2 {
+	background-color: cyan;
+	height: 150px;
+	width: 50%;
+	float:right;
+}

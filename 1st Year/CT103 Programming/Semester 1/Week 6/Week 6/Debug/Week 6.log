@@ -1,0 +1,4 @@
+﻿  Week 6.cpp
+c:\users\conor\onedrive - national university of ireland, galway\programming\projects\assesment\week 6\week 6\week 6.cpp(7): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\conor\onedrive - national university of ireland, galway\programming\projects\assesment\week 6\week 6\week 6.cpp(10): warning C4101: 'len': unreferenced local variable
+  Week 6.vcxproj -> C:\Users\conor\OneDrive - National University of Ireland, Galway\Programming\Projects\Assesment\Week 6\Debug\Week 6.exe

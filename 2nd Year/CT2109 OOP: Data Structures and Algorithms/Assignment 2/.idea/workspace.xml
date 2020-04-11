@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05445ee0-48dd-4ba8-80b9-77674f8aea45" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XTm0WB2SJqaGoyHAKJmgoKjazr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580505950735" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Next-Gen-Tech/Sem 2/Assignment 5" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.MyApp">
+    <configuration name="MyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyApp" />
+      <module name="Assignment 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPostfix" />
+      <module name="Assignment 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyApp" />
+        <item itemvalue="Application.TestPostfix" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05445ee0-48dd-4ba8-80b9-77674f8aea45" name="Default Changelist" comment="" />
+      <created>1580476100153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580476100153</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="806" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581509236965">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="806" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1581509236965" />
+    <state x="263" y="275" width="424" height="483" key="FileChooserDialogImpl" timestamp="1581616011033">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="263" y="275" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.1035@0.0.1920.1035" timestamp="1581616011033" />
+    <state width="1874" height="336" key="GridCell.Tab.0.bottom" timestamp="1581604346275">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1874" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1581604346275" />
+    <state width="1874" height="336" key="GridCell.Tab.0.center" timestamp="1581604346274">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1874" height="336" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1581604346274" />
+    <state width="1874" height="336" key="GridCell.Tab.0.left" timestamp="1581604346274">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1874" height="336" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1581604346274" />
+    <state width="1874" height="336" key="GridCell.Tab.0.right" timestamp="1581604346275">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1874" height="336" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1581604346275" />
+    <state width="1874" height="336" key="GridCell.Tab.1.bottom" timestamp="1581604346275">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1874" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1581604346275" />
+    <state width="1874" height="336" key="GridCell.Tab.1.center" timestamp="1581604346275">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1874" height="336" key="GridCell.Tab.1.center/0.0.1920.1035@0.0.1920.1035" timestamp="1581604346275" />
+    <state width="1874" height="336" key="GridCell.Tab.1.left" timestamp="1581604346275">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1874" height="336" key="GridCell.Tab.1.left/0.0.1920.1035@0.0.1920.1035" timestamp="1581604346275" />
+    <state width="1874" height="336" key="GridCell.Tab.1.right" timestamp="1581604346275">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1874" height="336" key="GridCell.Tab.1.right/0.0.1920.1035@0.0.1920.1035" timestamp="1581604346275" />
+    <state x="461" y="153" key="SettingsEditor" timestamp="1581509256929">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="461" y="153" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1581509256929" />
+    <state x="159" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581615660478">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="159" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1581615660478" />
+    <state x="0" y="120" key="new project wizard" timestamp="1581248222596">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="0" y="120" key="new project wizard/0.0.1920.1035@0.0.1920.1035" timestamp="1581248222596" />
+    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1581434632010">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="143" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1035@0.0.1920.1035" timestamp="1581434632010" />
+  </component>
+</project>

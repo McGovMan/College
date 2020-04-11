@@ -1,0 +1,6 @@
+﻿  Week 1.cpp
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\semester 2\week 1\week 1\week 1.cpp(12): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\semester 2\week 1\week 1\week 1.cpp(39): warning C4473: 'fscanf' : not enough arguments passed for format string
+  c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\semester 2\week 1\week 1\week 1.cpp(39): note: placeholders and their parameters expect 8 variadic arguments, but 7 were provided
+  c:\users\conor mcgovern\onedrive - national university of ireland, galway\programming\projects\assesment\semester 2\week 1\week 1\week 1.cpp(39): note: the missing variadic argument 8 is required by format string '%f'
+  Week 1.vcxproj -> C:\Users\Conor McGovern\OneDrive - National University of Ireland, Galway\Programming\Projects\Assesment\Semester 2\Week 1\Debug\Week 1.exe

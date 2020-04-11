@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/conor/Documents/Git/Programming-Labs/Semester 2/Week 11 2/solutionToTest.h
+
+/home/conor/Documents/Git/Programming-Labs/Semester 2/Week 11 2/test.h
+
+/home/conor/Documents/Git/Programming-Labs/Semester 2/Week 11 2/testFunctions.c
+testFunctions.h
+/home/conor/Documents/Git/Programming-Labs/Semester 2/Week 11 2/testFunctions.h
+solutionToTest.h
+/home/conor/Documents/Git/Programming-Labs/Semester 2/Week 11 2/solutionToTest.h
+test.h
+/home/conor/Documents/Git/Programming-Labs/Semester 2/Week 11 2/test.h
+stdbool.h
+-
+stdio.h
+-
+stdarg.h
+-
+string.h
+/home/conor/Documents/Git/Programming-Labs/Semester 2/Week 11 2/string.h
+
+/home/conor/Documents/Git/Programming-Labs/Semester 2/Week 11 2/testFunctions.h
+
