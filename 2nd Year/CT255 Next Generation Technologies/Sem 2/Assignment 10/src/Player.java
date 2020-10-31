@@ -11,8 +11,8 @@ public class Player {
 
 	public Player( Image i ) {
 		myImage=i;
-		x=20;
-		y=10;
+		x=29;
+		y=12;
 	}
 	
 	public void setXSpeed( int x ) {
