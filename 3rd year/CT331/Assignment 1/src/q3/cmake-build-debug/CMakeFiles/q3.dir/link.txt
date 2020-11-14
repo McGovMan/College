@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/q3.dir/assignment.c.o CMakeFiles/q3.dir/genericLinkedList.c.o CMakeFiles/q3.dir/tests.c.o  -o q3 

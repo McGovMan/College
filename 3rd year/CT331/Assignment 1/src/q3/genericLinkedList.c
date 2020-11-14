@@ -1,0 +1,166 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "genericLinkedList.h"
+
+typedef struct listElementStruct{
+    void* data;
+    size_t size;
+    void (*funcPointer)(void* data);
+    struct listElementStruct* next;
+} listElement;
+
+//Creates a new linked list element with given content of size
+//Returns a pointer to the element
+listElement* createEl(void* data, size_t size, void (*funcPointer)(void* data)){
+    listElement* e = malloc(sizeof(listElement));
+    if(e == NULL){
+        //malloc has had an error
+        return NULL; //return NULL to indicate an error.
+    }
+    void* dataPointer = malloc(sizeof(void*) * (size));
+    if(dataPointer == NULL){
+        //malloc has had an error
+        free(e); //release the previously allocated memory
+        return NULL; //return NULL to indicate an error.
+    }
+    memmove(dataPointer, data, size);
+
+    e->data = dataPointer;
+    e->size = size;
+    e->next = NULL;
+    e->funcPointer = funcPointer;
+    return e;
+}
+//funcPointer(e->data);
+//Prints out each element in the list
+void traverse(listElement* start){
+    listElement* current = start;
+    while(current != NULL) {
+        current->funcPointer(current->data);
+        current = current->next;
+    }
+}
+
+//Inserts a new element after the given el
+//Returns the pointer to the new element
+listElement* insertAfter(listElement* el, void* data, size_t size, void (*funcPointer)(void* data)){
+    listElement* newEl = createEl(data, size, funcPointer);
+    listElement* next = el->next;
+    newEl->next = next;
+    el->next = newEl;
+    return newEl;
+}
+
+
+//Delete the element after the given el
+void deleteAfter(listElement* after){
+    listElement* delete = after->next;
+    listElement* newNext = delete->next;
+    after->next = newNext;
+    //need to free the memory because we used malloc
+    free(delete->data);
+    free(delete);
+}
+
+// Returns the number of elements in a linked list.
+// Cannot call the function length as there must be a built-in function called that.
+int lengthOfList(listElement* list) {
+    /*
+     * 1) Initialize count as 0
+     * 2) Initialize a node pointer, current = head.
+     * 3) Do following while current is not NULL
+        a) current = current -> next
+        b) count++;
+     * 4) Return count
+     */
+
+    int count = 1;
+    listElement* current = list;
+
+    while (current->next != NULL) {
+        current = current->next;
+        count++;
+    }
+
+    return count;
+}
+
+// Push a new element onto the head of a list
+// Update the list reference using side effects
+void push(listElement** list, void* data, size_t size, void (*funcPointer)(void* data)) {
+    /*
+     * 1. Make new node with createEl
+     * 2. Make next of new node as head
+     * 3. Move the list head to point to the new node
+     */
+
+    listElement* newHead = createEl(data, size, funcPointer);
+    newHead->next = *list;
+    *list = newHead;
+}
+
+// Pop an element from the head of a list
+// Update the list reference using side effects
+listElement* pop(listElement** list) {
+    /*
+     * 1. Set head->next to list head
+     */
+
+    listElement* tempHead = *list;
+    list = &tempHead->next;
+
+    return tempHead;
+}
+
+// Enqueue a new element onto the head of the list
+// Update the list reference using side effects
+void enqueue(listElement** list, char* data, size_t size, void (*funcPointer)(void* data)) {
+    // I want to mention that I think enqueue should append to the tail of the list, not the beginning, so I will be commenting out the below to include my solution
+    /*listElement* newElement = createEl(data, size, funcPointer);
+    listElement* current = *list;
+
+    while (current->next != NULL) {
+        current = current->next;
+    }
+
+    // current is now last in list
+    current->next = newElement;*/
+
+    listElement* newElement = createEl(data, size, funcPointer);
+
+    newElement->next = *list;
+    *list = newElement;
+
+}
+
+// Dequeue an element from the tail of the list
+listElement* dequeue(listElement* list) {
+    listElement* current = list;
+    listElement* prev;
+
+    while (current->next != NULL) {
+        prev = current;
+        current = current->next;
+    }
+
+    // prev is now second last in list
+    listElement* lastElement = prev->next;
+    prev->next = NULL;
+
+    return lastElement;
+}
+
+void printChar(void* data) {
+    printf("%c\n", *(char*)data);
+}
+
+void printInt(void* data) {
+    printf("%d\n", *(int*)data);
+}
+
+void printStr(void* data) {
+    char *array;
+    array = (char*)data;
+    printf("%s\n", array);
+}

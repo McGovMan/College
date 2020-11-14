@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/conor/Documents/College/3rd year/CT331/CT331_Assignment1/src/q2/linkedList.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+linkedList.h
+/home/conor/Documents/College/3rd year/CT331/CT331_Assignment1/src/q2/linkedList.h
+
+/home/conor/Documents/College/3rd year/CT331/CT331_Assignment1/src/q2/linkedList.h
+
+/home/conor/Documents/College/3rd year/CT331/CT331_Assignment1/src/q2/tests.c
+stdio.h
+-
+linkedList.h
+/home/conor/Documents/College/3rd year/CT331/CT331_Assignment1/src/q2/linkedList.h
+
