@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import statistics
+from random import randrange
 import common
 from numpy.random import randint
 from dataclasses import dataclass
@@ -37,13 +38,18 @@ class Config(common.Config):
 
     def main(self):
         population = []
+        for x in range(10):
+            self.population_size = self.population_size = randrange(20, 180, 2)
+            print("Population size: ", self.population_size)
+            # Generate a population of individuals
+            for i in range(0, self.population_size):
+                population.append(randint(0, self.max_value + 1))
 
-        # Generate a population of individuals
-        for i in range(0, self.population_size):
-            population.append(randint(0, self.max_value + 1))
-
-        self.knapsack_genetic_algorithm(population)
-        self.knapsack_plot()
+            self.knapsack_genetic_algorithm(population)
+            self.knapsack_plot()
+            population = []
+            self.fitness_best = []
+            self.fitness_averages = []
 
     def knapsack_genetic_algorithm(self, population):
         best = 0
