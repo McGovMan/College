@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import statistics
+from random import randrange
 import common
 from numpy.random import randint
 from dataclasses import dataclass
@@ -22,7 +23,8 @@ class Config(common.Config):
         self.weights = []
         self.read_in_values_weights()
         self.max_value = (1 << len(self.values)) - 1
-        self.fitness_best = []
+        self.fitness_averages = [[], [], [], [], [], [], [], [], [], []]
+        self.fitness_best = [[], [], [], [], [], [], [], [], [], []]
         self.length = 24
         # run a few more generations this time
         self.num_of_iterations = 25
@@ -36,27 +38,29 @@ class Config(common.Config):
                 self.weights.append(int(line))
 
     def main(self):
-        population = []
-
-        # Generate a population of individuals
-        for i in range(0, self.population_size):
-            population.append(randint(0, self.max_value + 1))
-
-        self.knapsack_genetic_algorithm(population)
+        population = [[], [], [], [], [], [], [], [], [], []]
+        for x in range(10):
+            self.population_size = randrange(20, 180, 2)
+            # Generate a population of individuals
+            for i in range(0, self.population_size):
+                population[x].append(randint(0, self.max_value + 1))
+            self.fitness_averages[x] = []
+            self.fitness_best[x] = []
+            self.knapsack_genetic_algorithm(population[x], self.fitness_averages[x], self.fitness_best[x])
         self.knapsack_plot()
 
-    def knapsack_genetic_algorithm(self, population):
+    def knapsack_genetic_algorithm(self, population, fitness_averages, fitness_best):
         best = 0
 
         # run num_of_iterations generations
         for generation in range(self.num_of_iterations):
             # calculate the fitness's for each individual
             scores = [self.fitness(x) for x in population]
-            self.fitness_averages.append(statistics.fmean(scores))
+            fitness_averages.append(statistics.fmean(scores))
 
             # get the best individual in regard to fitness
             best_individual_score = max(scores)
-            self.fitness_best.append(best_individual_score)
+            fitness_best.append(best_individual_score)
             # If this individuals score is better than the best,
             # set this individual as the best
             if best_individual_score > self.fitness(best):
@@ -94,9 +98,13 @@ class Config(common.Config):
         return 0
 
     def knapsack_plot(self):
-        plt.plot(range(1, self.num_of_iterations + 1), self.fitness_averages, label='Average Fitness')
-        plt.plot(range(1, self.num_of_iterations + 1), self.fitness_best, label='Best Fitness')
-        plt.legend(['Average Fitness', 'Best Fitness'])
+        legend = []
+        for x in range(10):
+            plt.plot(range(1, self.num_of_iterations + 1), self.fitness_averages[x], label='Average Fitness Run ' + str(x))
+            plt.plot(range(1, self.num_of_iterations + 1), self.fitness_best[x], label='Best Fitness Run ' + str(x))
+            legend.append('Average Fitness Run ' + str(x))
+            legend.append('Best Fitness Run ' + str(x))
+        plt.legend(legend)
         # Display as normal numbers instead of scientific notation
         plt.ticklabel_format(style='plain')
         plt.ylabel('Fitness')
