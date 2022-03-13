@@ -1,0 +1,5 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /tmp/tmp.PuOq1IuTsq
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmp.PuOq1IuTsq/cmake-build-debug
+Cannot resolve path: Z:\College\CT437\problem_3\cmake-build-debug

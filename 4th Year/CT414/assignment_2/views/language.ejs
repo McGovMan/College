@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Programming Language Vote</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/assets/vote-list.js"></script>
+    <link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Vote For Your Favorite Programming Languages</h1>
+      <div id="vote-table">
+        <table>
+          <tr>
+            <th>Programming Language Name</th>
+            <th style="padding-left: 50px;">Number Of Votes</th>
+          </tr>
+          <% for (var i=0; i < languages.length; i++) { %>
+            <tr>
+              <td id="language-id" style="display: none"><%=languages[i]._id%></td>
+              <td id="language-name"><%=languages[i].name%></td>
+              <td id="language-votes" style="padding-left: 50px;"><%=languages[i].votes%></td>
+            </tr>
+          <% } %>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

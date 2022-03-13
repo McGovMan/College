@@ -1,0 +1,4 @@
+grant codeBase "file:/home/conor/Workspace/College/CT414/-" {
+    permission java.security.AllPermission;
+};
+
